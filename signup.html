@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieMeter - Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="signup-wrapper">
+        <div class="signup-card">
+            <img src="df938232-9f00-4282-997d-2f459bf01ec0.webp" alt="MovieMeter Logo" class="logo-large">
+            <h2>Create Your MovieMeter Account</h2>
+            
+            <input type="text" id="signup-username" placeholder="Username" required>
+            <input type="email" id="signup-email" placeholder="Email" required>
+            <input type="password" id="signup-password" placeholder="Password" required>
+            <input type="date" id="signup-dob" placeholder="Date of Birth" required>
+            <input type="tel" id="signup-phone" placeholder="Phone Number" required>
+
+            <button onclick="signup()">Sign Up</button>
+            <p id="signup-error-msg"></p>
+
+            <p>Already have an account? <a href="login.html">Login here</a></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

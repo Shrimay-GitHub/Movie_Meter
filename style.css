@@ -1,0 +1,146 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar with MovieMeter Logo */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: linear-gradient(to right, #ff44006a, #ff6347);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 32px;
+}
+
+/* Button Style */
+button {
+    padding: 12px 20px;
+    cursor: pointer;
+    background: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #00bfff;
+}
+
+/* Movie Grid */
+#movies-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px;
+}
+
+/* Movie Card */
+.movie-card {
+    background: #222;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s;
+}
+
+.movie-card:hover {
+    transform: translateY(-8px);
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+/* Star Rating */
+.rating {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.star {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.star:hover {
+    color: #ffd700;
+}
+
+/* Login Page */
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #2c3e50, #4ca1af);
+}
+
+.login-card {
+    background: #1e1e2f;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.logo-large {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 80%;
+    padding: 12px;
+    margin: 12px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#error-msg {
+    color: #f53939;
+}
+.signup-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #4a47a3, #b06ab3);
+}
+
+.signup-card {
+    background: #1e1e2f;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
